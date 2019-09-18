@@ -26,7 +26,7 @@
 }
 
 .first-form {
-  background: #A53A3A;
+  background: #E5B9B9;
 }
 
 .first-form {
@@ -45,8 +45,13 @@
 
 .first-form-button {
   margin: 10px 10px;
+  padding: 10px 10px;
   background: red;
   color: white;
+}
+
+.selectcar-btns {
+  float: right;
 }
 
 /*# sourceMappingURL=main.css.map */

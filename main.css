@@ -101,9 +101,16 @@
   margin-right: 10px;
 }
 
+.line-button {
+  background: #EBE4E4;
+  color: grey;
+  padding: 10px 10px;
+}
+
 .lowhigh-button {
   background: white;
   color: grey;
+  padding: 10px 10px;
 }
 
 .car-selection {
@@ -190,6 +197,12 @@
 .numbered-btns {
   margin-top: 15px;
   text-align: center;
+}
+
+.btn {
+  background: #EBE4E4;
+  color: grey;
+  padding: 10px 10px;
 }
 
 .about-section {
@@ -283,11 +296,13 @@ h4 {
 
 .contact-title {
   color: white;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .contact-para {
   color: white;
   margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .contact-icon-button {
@@ -300,6 +315,7 @@ h4 {
 
 .hours-info {
   color: white;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 input {
@@ -312,10 +328,12 @@ input {
   background: red;
   padding: 10px 10px;
   margin-left: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .spam-info {
   color: white;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 footer {

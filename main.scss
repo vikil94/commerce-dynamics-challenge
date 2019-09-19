@@ -96,7 +96,6 @@ $footerBackground: #212020;
     color: grey;
 }
 
-
 .first-form-button {
     margin: 10px 10px;
     padding: 10px 10px;
@@ -109,10 +108,19 @@ $footerBackground: #212020;
     margin-right: 10px;
 }
 
+.line-button {
+    background: $carBackground;
+    color: grey;
+    padding: 10px 10px;
+}
+
 .lowhigh-button {
     background: white;
     color: grey;
+    padding: 10px 10px;
 }
+
+
 
 .car-selection {
     display: grid;
@@ -162,13 +170,11 @@ $footerBackground: #212020;
     grid-template-rows: 1fr 1fr 1fr;
 }
 
-
 .car-price-title {
     padding-left: 20px;
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif
 }
-
 
 .car-selection-image {
     height: 25em;
@@ -204,6 +210,12 @@ $footerBackground: #212020;
 .numbered-btns {
     margin-top: 15px;
     text-align: center;
+}
+
+.btn {
+    background: $carBackground;
+    color: grey;
+    padding: 10px 10px;
 }
 
 .about-section {
@@ -296,11 +308,15 @@ h4 {
 
 .contact-title {
     color: white;
+    font-family: Arial,
+    Helvetica,
+    sans-serif;
 }
 
 .contact-para {
     color: white;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .contact-icon-button {
@@ -313,6 +329,9 @@ h4 {
 
 .hours-info {
     color: white;
+    font-family: Arial,
+    Helvetica,
+    sans-serif;
 }
 
 
@@ -326,10 +345,16 @@ input {
     background: red;
     padding: 10px 10px;
     margin-left: 0;
+    font-family: Arial,
+    Helvetica,
+    sans-serif;
 }
 
 .spam-info {
     color: white;
+    font-family: Arial,
+    Helvetica,
+    sans-serif;
 }
 
 

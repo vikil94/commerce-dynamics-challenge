@@ -3,20 +3,30 @@
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: black;
+}
+
+.nav-items-div {
+  display: inline;
+  margin-left: 50em;
 }
 
 .test-items {
   color: white;
   display: inline;
-  padding-left: 5px;
   font-size: 30px;
 }
 
 .nav-items {
-  float: right;
   color: white;
-  padding: 5px;
+  display: inline-block;
+}
+
+.login-button {
+  color: white;
+  background: black;
+  border: solid 2px black;
+  padding: 5px 5px;
 }
 
 .first-image {
@@ -113,7 +123,7 @@
   margin: 0 auto;
   left: 0;
   right: 0;
-  top: 57%;
+  top: 59%;
   text-align: left;
   /* Adjust this value to move the positioned div up and down */
   background: rgba(0, 0, 0, 0.8);
@@ -122,6 +132,11 @@
   width: 100%;
   color: white;
   /* Set the width of the positioned div */
+}
+
+.car-info-div {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
 }
 
 .car-price-title {
@@ -144,8 +159,14 @@
   margin-left: 10%;
 }
 
-i {
-  padding-left: 10%;
+#icon {
+  padding: 2px 40px;
+}
+
+.car-span {
+  padding-left: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
 }
 
 .car-info {
@@ -232,6 +253,7 @@ h4 {
   color: red;
   padding: 10px 10px;
   border: 2px solid red;
+  background: white;
 }
 
 .contact-section {
@@ -278,13 +300,13 @@ footer {
   color: white;
   background: black;
   width: 100%;
-  padding: 10px 10px;
+  padding: 10px 0;
 }
 
 /* 
 ----------MEDIA QUERIES-----------
 */
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 600px) {
   .car-selection {
     margin-top: 15%;
     display: grid;
@@ -292,9 +314,9 @@ footer {
   }
 
   .contact-section {
-    margin-top: 15% 5%;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 auto;
   }
 
   .main-nav {
@@ -303,6 +325,10 @@ footer {
 
   .about-section {
     font-size: 10px;
+  }
+
+  .nav-items-div {
+    margin: 5px;
   }
 }
 /*

@@ -8,13 +8,14 @@
 
 .nav-items-div {
   display: inline;
-  margin-left: 50em;
+  margin-left: 48em;
 }
 
 .test-items {
   color: white;
   display: inline;
   font-size: 30px;
+  padding: 10px 10px;
 }
 
 .nav-items {

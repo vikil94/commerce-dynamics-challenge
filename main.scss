@@ -325,6 +325,11 @@ h4 {
     padding: 0;
 }
 
+.div-hours {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 .hours-info {
     color: white;
     font-family: Arial,
@@ -371,13 +376,13 @@ footer {
 
 @media only screen and (max-width: 950px) {
     .car-selection {
-        margin-top: 15%;
+        margin-top: 20%;
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
     .contact-section {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
         padding: 0 auto;
     }
     .main-nav {

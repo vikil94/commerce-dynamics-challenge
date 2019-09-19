@@ -1,6 +1,6 @@
 $formBackground: #E5B9B9;
 $formFontColor: grey;
-$carBackground: #E9E6E6;
+$carBackground: #EBE4E4;
 
 
 .main-nav {
@@ -30,7 +30,7 @@ $carBackground: #E9E6E6;
 }
 
 .first-form {
-    background: $formBackground;
+    background: $carBackground;
 }
 
 .first-form {
@@ -69,18 +69,196 @@ $carBackground: #E9E6E6;
     height: 25em;
     display: block;
     margin: 0 auto;
+    border-radius: 25px;
+    padding-top: 10px;
 }
 
-.car-desc {
+.car-divs {
+    position: relative;
+    display: inline-block;
+    margin: 0 5%;
+    border: 2px solid #EBE4E4;
+    border-radius: 25px;
+    margin: 10px 10px;
+    background: $carBackground;
+}
+
+.car-price-title {
+    color: white;
     text-align: center;
 }
+
+
+.car-divs .car-price-div {
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 58%;
+    /* Adjust this value to move the positioned div up and down */
+    background: rgba(0, 0, 0, 0.8);
+    opacity:0.8;
+    font-family: Arial,
+    sans-serif;
+    width: 100%;
+    /* Set the width of the positioned div */
+}
+
+
+.car-selection-image {
+    display: block;
+    height: 25em;
+    width: 100%;
+    border-radius: 25px;
+}
+
+.cartype {
+    margin-left: 10%;
+}
+
+.car-info-p {
+    margin-left: 10%;
+}
+
+
 
 i {
     padding-left: 10%;
 }
 
-.mileage {
+.car-info {
     display: inline;
-    padding-left: 5%;
+    padding-left: 10px;
 }
 
+.numbered-btns {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.business-section-div {
+    background: grey;
+    margin: 5% 5%;
+    padding: 2% 2%;
+}
+.business-section {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.business-numbers {
+    display: inline;
+    padding: 10px 125px;
+    font-size: 30px;
+}
+
+.business-info-section {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.business-info {
+    display: inline;
+    padding: 10px 8%;
+}
+
+.latest-cars-section {
+    text-align: center;
+}
+.latest-title {
+    text-align: center;
+}
+
+.car-articles {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 10%;
+}
+
+.car-article-img {
+    display: block;
+    height: 25em;
+    width: 100%;
+    border-radius: 25px;
+}
+
+.car-article-one {
+    margin: 0 5%;
+    text-align: center;
+    border: 2px solid #EBE4E4;
+    border-radius: 25px;
+}
+
+h4 {
+    text-align: center;
+}
+
+.first-car-article {
+    text-align: center;
+    padding: 0 10%;
+    color: grey;
+}
+
+.author {
+    text-align: center;
+    border-top: 2px solid grey;
+    padding-top: 10px;
+    color: grey;
+}
+
+.vehicle-submit {
+    margin-top: 5%;
+    text-align: center;
+    color: red;
+    padding: 10px 10px;
+    border: 2px solid red;
+}
+
+.contact-section {
+    margin-top: 5%;
+    background: grey;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.contact-info {
+    margin-left: 5%;
+}
+
+.contact-title {
+    color: white;
+}
+
+.contact-para {
+    color: white;
+    margin: 0;
+}
+
+.hours-info {
+    color: white;
+}
+
+
+input {
+    padding: 10px 0;
+    margin: 0;
+}
+
+.email-button {
+    color: white;
+    background: red;
+    padding: 10px 10px;
+    margin-left: 0;
+}
+
+.spam-info {
+    color: white;
+}
+
+footer {
+    color: white;
+    background: black;
+    width: 100%;
+    padding: 10px 10px;
+}

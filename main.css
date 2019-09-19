@@ -21,8 +21,27 @@
 
 .first-image {
   width: 100%;
-  height: 30em;
-  padding-right: 5px;
+  height: 25em;
+}
+
+.first-car-div {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.first-car-div .car-price-div {
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  top: 80%;
+  text-align: left;
+  /* Adjust this value to move the positioned div up and down */
+  background: rgba(0, 0, 0, 0.8);
+  font-family: Arial, sans-serif;
+  color: #fff;
+  width: 100%;
+  /* Set the width of the positioned div */
 }
 
 .first-form {
@@ -72,16 +91,10 @@
 .car-divs {
   position: relative;
   display: inline-block;
-  margin: 0 5%;
+  margin: 10px 10px;
   border: 2px solid #EBE4E4;
   border-radius: 25px;
-  margin: 10px 10px;
   background: #EBE4E4;
-}
-
-.car-price-title {
-  color: white;
-  text-align: center;
 }
 
 .car-divs .car-price-div {
@@ -90,17 +103,23 @@
   margin: 0 auto;
   left: 0;
   right: 0;
-  top: 58%;
+  top: 57%;
+  text-align: left;
   /* Adjust this value to move the positioned div up and down */
   background: rgba(0, 0, 0, 0.8);
   opacity: 0.8;
   font-family: Arial, sans-serif;
   width: 100%;
+  color: white;
   /* Set the width of the positioned div */
 }
 
+.car-price-title {
+  padding-left: 20px;
+  font-size: 25px;
+}
+
 .car-selection-image {
-  display: block;
   height: 25em;
   width: 100%;
   border-radius: 25px;
@@ -128,31 +147,18 @@ i {
   text-align: center;
 }
 
-.business-section-div {
-  background: grey;
-  margin: 5% 5%;
-  padding: 2% 2%;
+.about-section {
+  background: #EBE4E4;
 }
 
-.business-section {
-  margin-top: 5%;
-  text-align: center;
-}
-
-.business-numbers {
+.numbers-title {
   display: inline;
-  padding: 10px 125px;
-  font-size: 30px;
+  padding: 10px 180px;
 }
 
-.business-info-section {
-  margin-top: 10px;
-  text-align: center;
-}
-
-.business-info {
+.about-desc-p {
   display: inline;
-  padding: 10px 8%;
+  padding: 10px 159px;
 }
 
 .latest-cars-section {
@@ -254,5 +260,33 @@ footer {
   width: 100%;
   padding: 10px 10px;
 }
+
+/* 
+----------MEDIA QUERIES-----------
+*/
+@media only screen and (max-width: 375px) {
+  .car-selection {
+    margin-top: 15%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .contact-section {
+    margin-top: 15% 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .main-nav {
+    font-size: 10px;
+  }
+
+  .about-section {
+    font-size: 10px;
+  }
+}
+/*
+---------------------------------------
+*/
 
 /*# sourceMappingURL=main.css.map */

@@ -149,16 +149,25 @@ i {
 
 .about-section {
   background: #EBE4E4;
+  margin-top: 5%;
+  padding: 30px 30px;
+}
+
+.numbers-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .numbers-title {
-  display: inline;
-  padding: 10px 180px;
+  text-align: center;
+  margin-bottom: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .about-desc-p {
-  display: inline;
-  padding: 10px 159px;
+  text-align: center;
+  margin-top: 5px;
+  color: #A79A9A;
 }
 
 .latest-cars-section {

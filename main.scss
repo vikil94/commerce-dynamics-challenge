@@ -85,11 +85,16 @@ $aboutFontColor: #A79A9A;
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 20px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .form-control {
     margin: 10px 10px;
+    background: white;
+    color: grey;
 }
+
 
 .first-form-button {
     margin: 10px 10px;
@@ -101,6 +106,11 @@ $aboutFontColor: #A79A9A;
 .selectcar-btns {
     float: right;
     margin-right: 10px;
+}
+
+.lowhigh-button {
+    background: white;
+    color: grey;
 }
 
 .car-selection {
@@ -123,7 +133,7 @@ $aboutFontColor: #A79A9A;
     margin: 10px 10px;
     border: 2px solid #EBE4E4;
     border-radius: 25px;
-    background: $carBackground;
+    
 }
 
 // adjusting the price div
@@ -175,12 +185,14 @@ $aboutFontColor: #A79A9A;
 
 #icon {
     padding: 2px 40px;
+    color: grey;
 }
 
 .car-span {
     padding-left: 10px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10px;
+    color: grey;
 }
 
 .car-info {
@@ -267,6 +279,7 @@ h4 {
     padding: 10px 10px;
     border: 2px solid red;
     background: white;
+    font-weight: bold;
 }
 
 .contact-section {

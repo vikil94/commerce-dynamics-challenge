@@ -1,5 +1,7 @@
 $formBackground: #E5B9B9;
 $formFontColor: grey;
+$carBackground: #E9E6E6;
+
 
 .main-nav {
     list-style-type: none;
@@ -33,14 +35,12 @@ $formFontColor: grey;
 
 .first-form {
     margin: 20px 20px;
-    
 }
 
 .form-group {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 20px;
-    
 }
 
 .form-control {
@@ -56,5 +56,31 @@ $formFontColor: grey;
 
 .selectcar-btns {
     float: right;
+    margin-right: 10px;
+}
+
+.car-selection {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 5%;
+}
+
+.car1-image {
+    height: 25em;
+    display: block;
+    margin: 0 auto;
+}
+
+.car-desc {
+    text-align: center;
+}
+
+i {
+    padding-left: 10%;
+}
+
+.mileage {
+    display: inline;
+    padding-left: 5%;
 }
 

@@ -52,6 +52,32 @@
 
 .selectcar-btns {
   float: right;
+  margin-right: 10px;
+}
+
+.car-selection {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 5%;
+}
+
+.car1-image {
+  height: 25em;
+  display: block;
+  margin: 0 auto;
+}
+
+.car-desc {
+  text-align: center;
+}
+
+i {
+  padding-left: 10%;
+}
+
+.mileage {
+  display: inline;
+  padding-left: 5%;
 }
 
 /*# sourceMappingURL=main.css.map */

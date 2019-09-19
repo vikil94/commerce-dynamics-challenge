@@ -35,6 +35,16 @@ $aboutFontColor: #A79A9A;
     width: 100%
 }
 
+.car-title {
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.first-car-price-title {
+    font-size: 15px;
+    margin-left: 15px;
+}
+
 .first-car-div .car-price-div {
     position: absolute;
     z-index: 999;
@@ -48,7 +58,6 @@ $aboutFontColor: #A79A9A;
     width: 100%;
     /* Set the width of the positioned div */
 }
-
 
 .first-form {
     background: $carBackground;
@@ -124,6 +133,7 @@ $aboutFontColor: #A79A9A;
 .car-price-title {
     padding-left: 20px;
     font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif
 }
 
 

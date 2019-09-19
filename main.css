@@ -16,11 +16,13 @@
   display: inline;
   font-size: 30px;
   padding: 10px 10px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .nav-items {
   color: white;
   display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .login-button {
@@ -77,12 +79,12 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 20px;
-  position: relative;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .form-control {
   margin: 10px 10px;
+  padding: 10px 10px;
   background: white;
   color: grey;
 }
@@ -270,7 +272,7 @@ h4 {
 
 .contact-section {
   margin-top: 5%;
-  background: grey;
+  background: #383838;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
@@ -286,6 +288,14 @@ h4 {
 .contact-para {
   color: white;
   margin: 0;
+}
+
+.contact-icon-button {
+  margin-top: 10px;
+  background: #383838;
+  border: 2px solid #383838;
+  font-size: 25px;
+  padding: 0;
 }
 
 .hours-info {
@@ -309,10 +319,11 @@ input {
 }
 
 footer {
-  color: white;
-  background: black;
+  color: grey;
+  background: #212020;
   width: 100%;
-  padding: 10px 0;
+  padding: 10px 10px;
+  max-width: 98%;
 }
 
 /* 
